@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.flex {
+    display: flex;
+}
+
+p {
+    font-size: 1.313rem;
+}
+
+.row-1 {
+    background-color: #F3EED9;
+    min-height: 70vmin;
+    padding: 3rem;
+    align-items: center;
+    display: flex;
+}
+
+.flex-1 {
+    flex-direction: column;
+    max-width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.flex-1 span {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-1 h1 {
+    color: #824936;
+    font-size: 3.75rem;
+}
+
+.row-2 {
+    margin: 2rem 0;
+    padding: 3rem 0;
+    background-color: #FFF;
+}
+
+.flex-2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.flex-2 h3 {
+    font-size: 2.25rem;
+    color: #824936;
+}
+
+.row2-flex {
+    gap: 5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.row-2-flex1 {
+    width: 100%;
+}
+
+.row-2-flex2 {
+    width: 100%;
+}
+
+.row-3 {
+    background-color: #222C2A;
+    color: #FFF;
+    gap: 1rem;
+    padding: 3rem 0;
+}
+
+.flex-3, .flex-4 {
+    gap: 5rem;
+}
+
+.pic-flex {
+    width: 50%;
+}
+
+.pic-flex p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.pic-flex h5 {
+    font-size: 2.25rem;
+    padding: 2rem 0;
+}
+
+.row-4 {
+    background-color: #824936;
+    color: #FFF;
+}
+
+img {
+    width: 50%;
+}
+
+@media (max-width: 600px) {
+    .flex-1 {
+        align-items: flex-start;
+        max-width: 100%;
+        width: 100%;
+    }
+    .row2-flex {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .row-2 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .flex-2 h3 {
+        padding-bottom: 2rem;
+    }
+
+    .row-2-flex1{
+        padding-bottom: 2rem;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .pic-flex {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .pic-flex1 h5 {
+        padding: 0;
+    }
+
+    .pic-flex2 h5 {
+        padding: 1rem 0;
+    }
+    
+    .pic-flex1 p {
+        padding: 1rem 0;
+    }
+
+}

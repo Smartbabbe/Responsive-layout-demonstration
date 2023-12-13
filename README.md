@@ -3,4 +3,4 @@ This project is a demonstration of how responsiveness works using flexbox and me
 The flexbox-xhallenge.pdf file is a pictorial representaion of the design to be made.
 
 This is the live link of the completed project. It is responsive o both desktop and mobile screen
-- 
+- https://responsive-layout-demonstration.vercel.app/
